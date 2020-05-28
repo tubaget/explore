@@ -78,9 +78,9 @@ func LoggerToFile() gin.HandlerFunc {
 		// 请求IP
 		clientIP := c.ClientIP()
 
-		header := c.Request.Header
+		//header := c.Request.Header
 
-		logIn(header)
+		//logIn(header)
 		// 日志格式 -- 基础内容
 		logger.Infof("%3d | %13v | %15s | %s | %s",
 			statusCode,

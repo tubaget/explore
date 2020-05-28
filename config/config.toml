@@ -4,12 +4,12 @@ run_mode = "debug"
 #mysql数据库
 [database]
 type = "mysql"
-host = "127.0.0.1"
+host = "119.3.73.30"
 port = 3306
 user = "root"
 password = "root"
-database_name = "blog"
-table_prefix = "blog_"
+database_name = "edu_public"
+table_prefix = "edu_"
 
 #基本配置
 [basic]

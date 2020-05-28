@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
 	"explore/pkg/setting"
 	"explore/routers"
+	"fmt"
 	"net/http"
 )
 
